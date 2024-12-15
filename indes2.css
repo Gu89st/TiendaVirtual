@@ -1,0 +1,28 @@
+.container-fluid {
+    background-color: #ffffff; /* Cambia este valor por el color que desees */
+}
+
+body{
+    background-color:#E6D5BC;
+}
+.navbar-brand {
+    flex-grow: 1;
+}
+.navbar-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 991.98px) { /* Para pantallas pequeñas */
+    .navbar-brand {
+        order: 1; /* Mueve la imagen a la derecha */
+        position: static;
+        transform: none;
+
+    }
+}
+
+
+
+
+
