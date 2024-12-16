@@ -25,30 +25,6 @@ body{
     }
 }
 
-.presentacion{
-    margin-top: 5%;
-    margin-left: 10%;
-    padding: 2%;
-   
-    height: 80%;
-    width: 80%;
-    border: 2px solid #000000;
-    border-radius: 100px;
-
-}
-.contenido{
-    padding: 5%;
-    align-items: center;
-    text-align: center;
-
-}
-.img{
-    height: 5px;
-    width: 5px;
-    display: flex;
-    position: center; 
-}
-/*Contaniner*/
 .card{
     height: auto;
     width: auto;
@@ -80,5 +56,55 @@ body{
     text-decoration: none;
 }
 
-
-
+.section2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+ }
+ .conteinersec2 {
+     max-width: 95%; 
+     padding: 10px; 
+     display: flex;
+     flex-wrap: wrap; 
+     justify-content: space-around; 
+ }
+ .subtytle{
+     margin: 0 20px;
+     text-decoration: none;
+     color: #000000;
+ }
+ .conteinersec2 a:hover {
+     border-radius: 50px;
+     background-color: #e6b950; 
+     transition: 0.2s ease-in-out;
+ }
+ .colors {
+    display: flex; 
+    text-align: left;
+    margin-top: 15px;
+}
+.card-color{
+    margin: 5px;
+}
+.descripcio{
+    margin-top: 15px;
+}
+.descripcion2{
+    margin-top: 15px;
+}
+.Tallas{
+    display: flex;
+    text-align: left;
+    margin-top: 15px;
+}
+.card-talla{
+    max-width: 20%;
+}
+.precio{
+    text-align: left;
+}
+.boton-col{
+    color: #000000;
+    background-color: rgb(18, 214, 8);
+    border-radius: 50px; 
+}
